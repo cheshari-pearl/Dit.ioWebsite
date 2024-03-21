@@ -1,0 +1,131 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+}
+#navbar{
+    display: flex;
+    gap: 50px;
+}
+#improve{
+    display: flex;
+    gap: 60px;
+}
+#roger{
+    transform: rotate(-6deg);
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 20px;
+    gap: 40px
+}
+#name{
+    display:flex;
+    gap: 30px;
+}
+
+#cont1{
+    border: 2px solid black; 
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+#man1{
+    border: 2px solid pink;
+    border-radius: 15%;
+    padding: 25px;
+}
+#mobile{
+    display: flex;
+    gap: 40px;
+}
+.glasses{
+  margin-top: 20%;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.pink{
+  background-color: crimson;
+  border: none;
+}
+.icon{
+    width: 12px;
+    
+}
+.blue{
+    background-color: midnightblue;
+    color: white;
+    border: none;
+}
+.middle{
+    text-align: center;
+}
+.img{
+    width:15px;
+    height: 20px;
+
+}
+#product{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+#numbers{
+    display: flex;
+    gap: 50px;
+}
+
+#digits{
+   display: flex; 
+   gap: 40px;
+}
+#person2{
+    margin-top: 35%;
+}
+
+#settings{
+   display: flex;
+   gap: 40px;
+   transform: rotate(5deg);
+}
+
+#createaccount{
+  display: flex;
+   gap: 40px;
+}
+
+#businessmen{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#users{
+    display: flex;
+    flex-direction: row;
+
+}
+#footer{
+    display:flex;
+    flex-direction: row;
+    background-color: midnightblue;
+    color: white;
+}
+#bottom{
+    display: flex;
+    gap: 80px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
