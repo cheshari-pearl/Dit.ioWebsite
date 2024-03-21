@@ -15,7 +15,7 @@ button{
 }
 #improve{
     display: flex;
-    gap: 60px;
+    gap: 80px;
 }
 #roger{
     transform: rotate(-6deg);
@@ -46,7 +46,7 @@ button{
 }
 #mobile{
     display: flex;
-    gap: 40px;
+    gap: 70px;
 }
 .glasses{
   margin-top: 20%;
@@ -64,7 +64,7 @@ button{
     
 }
 .blue{
-    background-color: midnightblue;
+    background-color: navy;
     color: white;
     border: none;
 }
@@ -83,7 +83,7 @@ button{
 }
 #numbers{
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
 #digits{
@@ -108,19 +108,24 @@ button{
 #businessmen{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 70px;
 }
 
 #users{
     display: flex;
     flex-direction: row;
-
+    gap: 70px;
 }
 #footer{
     display:flex;
     flex-direction: row;
-    background-color: midnightblue;
+    background-color: navy;
     color: white;
+    height: 250px;
+    margin-top: 10%;
+    gap: 40px;
+    line-height: 24px;
+    
 }
 #bottom{
     display: flex;
@@ -128,4 +133,71 @@ button{
     background-color: black;
     color: white;
     width: 100%;
+    
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+   body{
+    
+   }
+   
+    #navbar{
+        flex-direction: column;
+        gap: 0;
+    }
+    #improve{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #icons{
+        flex-direction: column;
+        height: 30px;
+        width: 20px;
+        
+    }
+    #product{
+    
+        flex-direction: column;
+        
+    }
+    #numbers{
+        flex-direction: column;
+        
+    }#mobile{
+        flex-direction: column;
+    }
+    #businessmen{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #users{
+    
+        flex-direction: column;
+        gap: 70px;
+    }
+    #footer{
+        flex-direction: column;
+        background-color: navy;
+        color: white;
+        height:1000px;
+        gap: 5px; 
+    }
+    #roger{
+        transform: rotate(-3deg);
+    }
+    
+    
+    .pic{
+        height:250px;
+        width: 250px;
+    }
+    #bottom{
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        width: 100%;
+        gap: 5px;
+        
+    }
+
 }
